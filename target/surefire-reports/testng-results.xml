@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-09T07:46:55 IST" name="Suite" finished-at="2025-01-09T07:47:22 IST" duration-ms="27217">
+    <groups>
+      <group name="BookOrderSuccess">
+        <method signature="ProductCatalogueHashMap.validateOrderSubmission(java.util.HashMap)[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" name="validateOrderSubmission" class="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap"/>
+        <method signature="ProductCatalogueHashMap.validateOrderSummary()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" name="validateOrderSummary" class="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap"/>
+        <method signature="ProductCatalogueHashMap.validateOrderFailureDemo()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" name="validateOrderFailureDemo" class="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap"/>
+      </group> <!-- BookOrderSuccess -->
+    </groups>
+    <test started-at="2025-01-09T07:46:55 IST" name="GlobalVariablesValidationDemo" finished-at="2025-01-09T07:47:22 IST" duration-ms="27217">
+      <class name="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:46:55 IST" name="launchApp" finished-at="2025-01-09T07:46:59 IST" duration-ms="3781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateOrderSubmission(java.util.HashMap)[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:46:59 IST" name="validateOrderSubmission" data-provider="dataProviderUtility" finished-at="2025-01-09T07:47:02 IST" duration-ms="2629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Placed@1007, email=mayureshpavnoji1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderSubmission -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:02 IST" name="closeApp" finished-at="2025-01-09T07:47:02 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:02 IST" name="launchApp" finished-at="2025-01-09T07:47:05 IST" duration-ms="3276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateOrderSubmission(java.util.HashMap)[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:05 IST" name="validateOrderSubmission" data-provider="dataProviderUtility" finished-at="2025-01-09T07:47:08 IST" duration-ms="2636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Placed@1007, email=mayureshpavnoji1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderSubmission -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:08 IST" name="closeApp" finished-at="2025-01-09T07:47:08 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:08 IST" name="launchApp" finished-at="2025-01-09T07:47:10 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateOrderSummary()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:10 IST" name="validateOrderSummary" finished-at="2025-01-09T07:47:12 IST" depends-on-methods="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap.validateOrderSubmission" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderSummary -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:12 IST" name="closeApp" finished-at="2025-01-09T07:47:12 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:12 IST" name="launchApp" finished-at="2025-01-09T07:47:15 IST" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="validateOrderFailureDemo()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:15 IST" name="validateOrderFailureDemo" finished-at="2025-01-09T07:47:16 IST" depends-on-methods="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap.validateOrderSummary" duration-ms="1017" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap.validateOrderFailureDemo(ProductCatalogueHashMap.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderFailureDemo -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:16 IST" name="closeApp" finished-at="2025-01-09T07:47:16 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:16 IST" name="launchApp" finished-at="2025-01-09T07:47:20 IST" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateOrderFailureDemo()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:20 IST" name="validateOrderFailureDemo" finished-at="2025-01-09T07:47:22 IST" depends-on-methods="demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap.validateOrderSummary" duration-ms="1921" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap.validateOrderFailureDemo(ProductCatalogueHashMap.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderFailureDemo -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap@4c163e3]" started-at="2025-01-09T07:47:22 IST" name="closeApp" finished-at="2025-01-09T07:47:22 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- demo.session.framework.SeleniumFrameworkTutorials.ProductCatalogueHashMap -->
+    </test> <!-- GlobalVariablesValidationDemo -->
+  </suite> <!-- Suite -->
+</testng-results>
