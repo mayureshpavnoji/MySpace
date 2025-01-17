@@ -41,6 +41,8 @@ public class BaseTest {
 
 		//browser = "chrome";
 		
+		//Added commit to push to git
+		
 		String browser = System.getProperty("browser")!=null ? System.getProperty("browser"): "chrome";		
 
 		if (browser.contains("chrome")) {
@@ -57,8 +59,7 @@ public class BaseTest {
 			driver = new ChromeDriver(options);
 			driver.manage().window().setSize(new Dimension (1440,900));
 			
-			
-
+		
 		} else if (browser.equalsIgnoreCase("firefox")) {
 
 			driver = new EdgeDriver();
